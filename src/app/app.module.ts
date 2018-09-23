@@ -6,13 +6,15 @@ import { AgePipe } from './age.pipe';
 import { UserService } from './user.service';
 import { EmpComponent } from './emp/emp.component';
 import { HttpClientModule } from '@angular/common/http';
-import {MatButtonModule, MatCheckboxModule} from '@angular/material'
+import {MatButtonModule, MatCheckboxModule} from '@angular/material';
+import { LoginComponent } from './login/login.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     AgePipe,
     EmpComponent,
+    LoginComponent,
 	
   ],
   imports: [
